@@ -11,6 +11,13 @@ support rest api post
 inbuild logs,config
 used jdk8
 
+add custome listener and parser:
+
+1.create class implements Listener interface.
+2. override onMessage method. 
+3.create constructor initialize own data parser.
+
+
 Project Link - https://
 
 main function : com.iot.service.main.IoTService.java
