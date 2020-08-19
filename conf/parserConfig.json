@@ -1,0 +1,397 @@
+{
+	"modbusData": [{
+		"dataType": "0",
+		"removeFirst": "6",
+		"removeLast": "0",
+		"dataParseFormat": [{
+			"tag": "tag1",
+			"disName": "R phase-neutral i/p voltage",
+			"parseLength": "0,4",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag2",
+			"disName": "Y phase-neutral i/p voltage",
+			"parseLength": "4,8",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag3",
+			"disName": "B phase-neutral i/p voltage",
+			"parseLength": "8,12",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag4",
+			"disName": "RY phase-phase i/p voltage",
+			"parseLength": "12,16",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag5",
+			"disName": "YB phase-phase i/p voltage",
+			"parseLength": "16,20",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag6",
+			"disName": "BR phase-phase i/p voltage",
+			"parseLength": "20,24",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag7",
+			"disName": "R phase-neutral o/p voltage",
+			"parseLength": "24,28",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag8",
+			"disName": "Y phase-neutral o/p voltage",
+			"parseLength": "28,32",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag9",
+			"disName": "B phase-neutral o/p voltage",
+			"parseLength": "32,36",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag10",
+			"disName": "RY phase-phase o/p voltage",
+			"parseLength": "36,40",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag11",
+			"disName": "YB phase-phase o/p voltage",
+			"parseLength": "40,44",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag12",
+			"disName": "BR phase-phase o/p voltage",
+			"parseLength": "44,48",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag13",
+			"disName": "R phase load",
+			"parseLength": "48,52",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag14",
+			"disName": "Y phase load",
+			"parseLength": "52,56",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag15",
+			"disName": "B phase load",
+			"parseLength": "56,60",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag16",
+			"disName": "frequency",
+			"parseLength": "60,64",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag17",
+			"disName": "R phase angle",
+			"parseLength": "64,68",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag18",
+			"disName": "Y phase angle",
+			"parseLength": "68,72",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag19",
+			"disName": "B phase angle",
+			"parseLength": "72,76",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag20",
+			"disName": "R phase KVA",
+			"parseLength": "76,80",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag21",
+			"disName": "Y phase KVA",
+			"parseLength": "80,84",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag22",
+			"disName": "B phase KVA",
+			"parseLength": "84,88",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag23",
+			"disName": "R phase KW",
+			"parseLength": "88,92",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag24",
+			"disName": "Y phase KW",
+			"parseLength": "92,96",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag25",
+			"disName": "B phase KW",
+			"parseLength": "96,100",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag26",
+			"disName": "R phase PF",
+			"parseLength": "100,104",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag27",
+			"disName": "Y phase PF",
+			"parseLength": "104,108",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag28",
+			"disName": "B phase PF",
+			"parseLength": "108,116",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag29",
+			"disName": "KWH",
+			"parseLength": "116,124",
+			"convertionType": "hexToDecimal",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}],
+
+		"statusParseLength": "116,124",
+		"statusConversionType": "decToBinary",
+		"statusParseFormat": [{
+			"tag": "tag1",
+			"disName": "R i/p lo",
+			"parseLength": "0",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag2",
+			"disName": "Y i/p lo",
+			"parseLength": "1",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag3",
+			"disName": "B i/p lo",
+			"parseLength": "2",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag4",
+			"disName": "R i/p hi",
+			"parseLength": "3",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag5",
+			"disName": "Y i/p hi",
+			"parseLength": "4",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag6",
+			"disName": "B i/p hi",
+			"parseLength": "5",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag7",
+			"disName": "R o/p lo",
+			"parseLength": "6",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag8",
+			"disName": "Y o/p lo",
+			"parseLength": "7",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag9",
+			"disName": "B o/p lo",
+			"parseLength": "8",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag10",
+			"disName": "R o/p hi",
+			"parseLength": "9",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag11",
+			"disName": "Y o/p hi",
+			"parseLength": "10",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag12",
+			"disName": "B o/p hi",
+			"parseLength": "11",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag13",
+			"disName": "phr",
+			"parseLength": "12",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag14",
+			"disName": "env",
+			"parseLength": "13",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag15",
+			"disName": "mech flt",
+			"parseLength": "14",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag16",
+			"disName": "on/off",
+			"parseLength": "15",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag17",
+			"disName": "auto/manual",
+			"parseLength": "16",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag18",
+			"disName": "phr e/d",
+			"parseLength": "17",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}, {
+			"tag": "tag19",
+			"disName": "env e/d",
+			"parseLength": "18",
+			"convertionType": "",
+			"unit" : "V",
+			"imageUrl" : "d:/image/",
+			"multipilicationFactor" : "(/10)"
+		}]
+	
+	}]
+}
